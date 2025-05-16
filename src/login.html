@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tela Login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Login</h1>
+
+            <img height="80" src="../logo.png">
+
+                <label for="txtEmail">Digite seu e-mail</label>
+                <input type="email" id="txtEmail" name="email">
+
+                <label for="txtSenha">Digite sua senha</label>
+                <input type="password" id="txtSenha" name="senha">
+
+                <a class="esqueceu-senha" href="tela-esqueceu-senha.html">Esqueceu senha</a>
+
+                <button id="btnEntrar">Entrar</button>
+
+            <span id="spnErro" class="erro"></span>
+
+            <p>Nao possui conta?<a href="cadastro.html">Cadastre-se</a></p>
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
